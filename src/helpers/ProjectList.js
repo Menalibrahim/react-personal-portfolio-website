@@ -1,15 +1,15 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
+import Proj1 from "../assets/proj1.png";
+import Proj2 from "../assets/proj2.png";
+import Proj3 from "../assets/proj3.jpg";
+import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.jpg";
 import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Eathiopian Restaurant",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "WordPress",
   },
   {
     name: "Ecommerce Website",
@@ -17,14 +17,14 @@ export const ProjectList = [
     skills: "React,Node.js,MongoDB",
   },
   {
-    name: "Spotify Clone",
+    name: "Shemachoch",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "php, bootstrap",
   },
   {
-    name: "Social Media Website",
+    name: "CarePad Website",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "MERN Stack",
   },
   {
     name: "Dashboard Visualizer",
@@ -32,8 +32,8 @@ export const ProjectList = [
     skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "Mobile Game",
+    name: "Ecommerce Website",
     image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills: "React,JavaScript,Express,Mongodb",
   },
 ];

@@ -1,7 +1,6 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
@@ -9,12 +8,17 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
+        <a href="https://github.com/Menalibrahim"> 
+        <GitHubIcon />
+        </a>
+        <a href="mailto:menalibrahim67@gmail.com">
+        <EmailIcon />
+        </a>
+        <a href="https://www.linkedin.com/in/menal-ibrahim-031790231/">
         <LinkedInIcon />
+        </a>
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
+      <p> &copy; 2023 menalibrahim</p>
     </div>
   );
 }
